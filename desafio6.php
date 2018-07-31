@@ -99,7 +99,6 @@ if (strlen($word)>1) {
 	$result = array_unique($result);
 	$tempo = microtime(True) - $inicio;
 }
-?>
 
 if (Count($result)>0) {
 	echo "Tempo decorrido: {$tempo}\n";
